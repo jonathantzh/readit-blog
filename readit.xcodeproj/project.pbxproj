@@ -6,10 +6,41 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		FC7B70C61D37016B004CBF7A /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		FC7B70C71D37016B004CBF7A /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		FC7B70C81D37016B004CBF7A /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		FC7B70C91D37016B004CBF7A /* config.ru */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.ru; sourceTree = "<group>"; };
+		FC7B70CA1D37016B004CBF7A /* db */ = {isa = PBXFileReference; lastKnownFileType = folder; path = db; sourceTree = "<group>"; };
+		FC7B70CB1D37016B004CBF7A /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		FC7B70CC1D37016B004CBF7A /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		FC7B70CD1D37016B004CBF7A /* log */ = {isa = PBXFileReference; lastKnownFileType = folder; path = log; sourceTree = "<group>"; };
+		FC7B70CE1D37016B004CBF7A /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		FC7B70CF1D37016B004CBF7A /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		FC7B70D01D37016B004CBF7A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC7B70D11D37016B004CBF7A /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		FC7B70D21D37016B004CBF7A /* tmp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tmp; sourceTree = "<group>"; };
+		FC7B70D31D37016B004CBF7A /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vendor; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		FC7B70BF1D370066004CBF7A = {
 			isa = PBXGroup;
 			children = (
+				FC7B70C61D37016B004CBF7A /* app */,
+				FC7B70C71D37016B004CBF7A /* bin */,
+				FC7B70C81D37016B004CBF7A /* config */,
+				FC7B70C91D37016B004CBF7A /* config.ru */,
+				FC7B70CA1D37016B004CBF7A /* db */,
+				FC7B70CB1D37016B004CBF7A /* Gemfile */,
+				FC7B70CC1D37016B004CBF7A /* lib */,
+				FC7B70CD1D37016B004CBF7A /* log */,
+				FC7B70CE1D37016B004CBF7A /* public */,
+				FC7B70CF1D37016B004CBF7A /* Rakefile */,
+				FC7B70D01D37016B004CBF7A /* README.md */,
+				FC7B70D11D37016B004CBF7A /* test */,
+				FC7B70D21D37016B004CBF7A /* tmp */,
+				FC7B70D31D37016B004CBF7A /* vendor */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +90,7 @@
 				FC7B70C51D370066004CBF7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
